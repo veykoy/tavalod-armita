@@ -1,0 +1,69 @@
+*{
+  margin:0;
+}
+body {
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    background: linear-gradient(50deg, #610C9F, #940B92,rgb(218, 12, 129), #E95793 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  body a .bt2 {
+    margin: 40px;
+  }
+.p{
+  width: 250px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #12b2de;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: none;
+  margin: 20px; ;
+}
+  body a {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+    margin: 20px; ;
+  } 
+
+  @import "fontvazir.css";
+
+  *{
+      font-family: vazir;
+  }
+  @media screen and (max-width: 480px) {
+    .main-grid {
+      grid-template-columns: 1fr 22rem;
+    }
+  
+    .grid-profile {
+      grid-template-columns: 20rem 1fr;
+    }
+  
+    .grid-profile .user-prof {
+      position: sticky;
+      top: 1rem;
+    }
+  }
+    
+  
